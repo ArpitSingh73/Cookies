@@ -18,7 +18,7 @@ contract cookies{
     }
 
     function buyCookies(string memory name, string memory message) public payable {
-            require(msg.value > 0, "Please pay me meore than 0eth");
+            require(msg.value > 0, "Please pay me more than 0eth");
             owner.transfer(msg.value);
             memos.push(Memo(name, message, block.timestamp, msg.sender));
     }

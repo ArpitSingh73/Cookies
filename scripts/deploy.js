@@ -30,7 +30,7 @@ async function printMemos(memos) {
     const address = memo.from;
     const time = memo.timestamp;
 
-    console.log(`from ${name} to ${address} at ${time} with message${message}`);
+    console.log(`from ${name} to ${address} at ${time} with message ${message}`);
   }``
 }
 
@@ -44,7 +44,7 @@ async function main() {
     // const contract = await ethers.deployContract("cookie");
 
   await contract.waitForDeployment();
-  // console.log("address of contract :", contract);
+  console.log("address of contract :", contract.runner.address);
 
   const addresses = [from1.address, from2.address, from3.address];
   console.log("Balance before txn ->");

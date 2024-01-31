@@ -1,0 +1,112 @@
+.txn {
+  background-color: blanchedalmond;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  min-height: 80px;
+  height: auto;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: cursive;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  justify-content: flex-start;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 10px;
+ box-shadow: 3px 3px 6px blanchedalmond;
+}
+
+/*  */
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 70px;
+  min-width: 184px;
+}
+.messagee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 184px;
+  height: 70px;
+}
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 23%;
+  min-width: 212px;
+  height: 70px;
+}
+.from {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+  min-width: 344px;
+  height: 70px;
+}
+
+
+.top1 {
+  display: flex;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  font-family: cursive;
+  border-radius: 10px;
+ box-shadow: 3px 3px 6px blanchedalmond;
+}
+
+.top1:hover {
+  background-color: rgb(244, 197, 136);
+}
+.name1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 184px;
+  height: 70px;
+}
+.message1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 184px;
+  height: 70px;
+}
+.time1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 212px;
+  height: 70px;
+  padding-right: 4px;
+}
+.from1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+  min-width: 344px;
+  height: 70px;
+  padding-left: 2px;
+}
+
+

@@ -1,0 +1,37 @@
+.warning{
+    height: 50px;
+    margin: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: rgb(247, 170, 170);
+}
+
+.message{
+    font-size: x-large;
+}
+
+.cut{
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.display{
+    display: none;
+}
+
+@media screen and (max-width: 485px){
+    .message{
+    font-size: large;
+}
+
+.cut{
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+}

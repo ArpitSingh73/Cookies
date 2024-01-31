@@ -1,0 +1,19 @@
+.navbar{
+    background-color: rgb(92, 92, 247);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: center;
+    font-family: cursive;
+    font-size: x-large;
+     box-shadow: 3px 3px 6px rgb(92, 92, 247);
+}
+
+.image{
+    margin: 9px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px rgb(92, 92, 247);
+}

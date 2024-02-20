@@ -1,5 +1,5 @@
 Visit here :- https://web3wallett.netlify.app/
-# Sample Hardhat Project
+# Web3Wallet
 
 My first project of Web3.0 world. It is a wallet which allows others to pay me Ethers. App is fully decentralized and is deployed on Etherium Blockchain. I learned and implemented :-
 Creating digital contracts ✔
